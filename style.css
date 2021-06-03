@@ -1,0 +1,173 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.blue-box{
+    background-color:#0475ba ;
+}
+
+
+.scrollmenu a{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 50px;
+}
+
+.scrollmenu .logo{
+    font-size: 1.5rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+.flex-one{
+    flex-direction: column;
+}
+
+.flex-container .flex-one h1{
+    padding-top: 20px;
+    margin-top: 20px;
+    justify-content: left;
+
+}
+.flex-container .flex-one p{
+color: #0475ba;
+padding-top: 5px;
+
+}
+
+.flex-container img{
+    margin-top: 20px;
+    padding-top: 5px;
+    border-radius: 999px;
+}
+
+.flex-container-two {
+    background-color: #0475ba;
+    display: flex;
+    
+}
+
+.flex-two{
+    margin-left: 155px;
+    color: white;
+}
+
+
+
+
+.flex-container-tree{
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-tree{
+    width: 50%;
+}
+.flex-tree p{
+    margin: 0px;
+}
+
+.flex-container-tree .flex-tree h1{
+    font-size: 20px;
+    color:#0475ba ;
+    margin-top: 40px;
+}
+
+.first-date{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-date{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    margin-left: 80px;
+}
+
+.flex-container-four{
+    display: flex;
+    background-color:#0475ba ;
+}
+.flex-h-four{
+    margin-left: 300px;
+    color: white;
+
+}
+.first-date-four{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+}
+.first-date-four .year{
+    margin-left: 300px;
+}
+.second-date-four{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+}
+.second-date-four .year{
+    margin-left: 300px;
+}
+
+.flex-container-five{
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-container-five h1{
+    color: #0475ba ;
+}
+
+.footer a{
+    display: flex;
+}
+
+
+
+
+/* @query */
+
+
+@media (max-width:800px){
+    .scrollmenu{
+        display: flex;
+
+    }
+}
+
+@media (max-width:420px){
+    .scrollmenu{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
